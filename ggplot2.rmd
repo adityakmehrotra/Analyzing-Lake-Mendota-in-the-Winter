@@ -26,7 +26,7 @@ library(lubridate)
     - The variable `duration` is the total number of days that Lake Mendota was closed by ice in the given winter. (Note: the word "winter" used here specifies a single season spanning two consecutive calendar years and does not use the endpoints from the winter solstice to the spring equinox, for example.)
     
 ```{r read-data}
-mendota = read_csv("../../data/lake-mendota-winters-2022.csv")
+mendota = read_csv("/lake-mendota-winters-2022.csv")
 mendota
 ```
     
