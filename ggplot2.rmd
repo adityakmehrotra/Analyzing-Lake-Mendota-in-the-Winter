@@ -74,4 +74,44 @@ total_days
 - This graph centers a boundary at 0 with `binwidth = 7` still.
     - The intervals are from $-3.5$ to 3.5, 3.5 to 10.5, and so on.
     - This histogram is identical except that the intervals are shifted
- 
+#### Using a Density Plot with Vertical Lines representing the Standard Deviations
+```{r freeze duration density plot}
+density_representation = ggplot(mendota, aes(x = duration)) +
+  geom_density(fill = "papayawhip") +
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = quantile(mendota$duration, probs = c(0.50)),
+             color = "red", linetype = "dotted") +
+  geom_vline(xintercept = quantile(mendota$duration, probs = c(0.25, 0.75)),
+             color = "red", linetype = "dashed") +
+  geom_vline(xintercept = quantile(mendota$duration, probs = c(0.10, 0.90)),
+             color = "red", linetype = "solid")
+density_representation
+```
+
+##### Observations
+- From this plot, we see that the distribution of year to year annual variation around the trend curve is approximately bell-shaped, but there is some slight left skewness (the left tail is bigger than the right tail).
+
+#### Using a Box Plot with Outliers
+```{r freeze duration box plot}
+box_representation = ggplot(mendota, aes(x = duration)) +
+  geom_boxplot(fill = "lightblue")
+box_representation
+```
+
+##### Observations
+- It appears that 4 times in the past 167 winters, the duration that Lake Mendota was closed in the winter by ice was 60 days or less.
+- Also, 2 times in the past 167 winters, the duration that Lake Mendota was closed in the winter by ice was 140 days or more.
+- More than half of the winters in the past have closed Lake Mendota because of ice for between 100 and 115 days.
+
+#### Using Side-by-side Box Plots with Outliers
+``` {r freeze duration box plots}
+ggplot(mendota, aes(x = as.character(decade), y = duration)) +
+  geom_boxplot(fill = "red",
+               color = "black") +
+  ylab("Total days closed by ice") +
+  xlab("Decade") +
+  ggtitle("Lake Mendota Freeze Durations, 1855-2023")
+```
+
+##### Observations
+- We see that in the 1800s, a typical freeze duration was nearly 120 days whereas in more recent decades, a typical duration has decreased to under 90 days.
