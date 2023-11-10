@@ -11,3 +11,5 @@ To answer this question, I used multiple graphs to visualize the data:
 - Density Plot (with Vertical Lines representing the Standard Deviations)
 - Box Plot (with Outliers)
 - Side-by-side Box Plots (with Outliers)
+
+Run the R Script file to get an outputted HTML file with my results.
