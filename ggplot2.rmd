@@ -14,7 +14,7 @@ library(lubridate)
 
 ## Overview
 
--- The following document will analyze Lake Mendota freeze/thaw data set using ggplot2
+-- The following document will analyze Lake Mendota freeze data set using ggplot2
 
 ## Lake Mendota
 
