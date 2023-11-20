@@ -57,4 +57,8 @@ To answer this question, I used multiple graphs to visualize the data:
 ## Side-by-side Box Plots
 <img width="681" alt="Screen Shot 2023-11-20 at 12 56 24 AM" src="https://github.com/adityakmehrotra/Analyzing-Lake-Mendota-in-the-Winter/assets/24847438/fbcaa8f5-5833-49c1-b406-5ceeb88869bd">
 
+### Observations
+- We see that in the 1800s, a typical freeze duration was nearly 120 days whereas in more recent decades, a typical duration has decreased to under 90 days.
+
+## Run the Code
 Run the R Script file to get an outputted HTML file with my results.
