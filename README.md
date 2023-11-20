@@ -48,6 +48,12 @@ To answer this question, I used multiple graphs to visualize the data:
 ## Box Plot
 <img width="683" alt="Screen Shot 2023-11-20 at 12 35 38 AM" src="https://github.com/adityakmehrotra/Analyzing-Lake-Mendota-in-the-Winter/assets/24847438/28e811db-7e38-495d-a441-84317c33f079">
 
+### Observations
+- It appears that 4 times in the past 167 winters, the duration that Lake Mendota was closed in the winter by ice was 60 days or less.
+- Also, 2 times in the past 167 winters, the duration that Lake Mendota was closed in the winter by ice was 140 days or more.
+- More than half of the winters in the past have closed Lake Mendota because of ice for between 100 and 115 days.
+
+
 ## Side-by-side Box Plots
 <img width="681" alt="Screen Shot 2023-11-20 at 12 56 24 AM" src="https://github.com/adityakmehrotra/Analyzing-Lake-Mendota-in-the-Winter/assets/24847438/fbcaa8f5-5833-49c1-b406-5ceeb88869bd">
 
