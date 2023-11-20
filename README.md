@@ -21,6 +21,7 @@ To answer this question, I used multiple graphs to visualize the data:
 <img width="676" alt="Screen Shot 2023-11-20 at 12 35 35 AM" src="https://github.com/adityakmehrotra/Analyzing-Lake-Mendota-in-the-Winter/assets/24847438/95d6da35-b2b7-4ad0-9311-3ba81f12114a">
 
 ## Box Plot
+<img width="683" alt="Screen Shot 2023-11-20 at 12 35 38 AM" src="https://github.com/adityakmehrotra/Analyzing-Lake-Mendota-in-the-Winter/assets/24847438/28e811db-7e38-495d-a441-84317c33f079">
 
 ## Side-by-side Box Plots
 
