@@ -37,8 +37,13 @@ To answer this question, I used multiple graphs to visualize the data:
     - The intervals are from $-3.5$ to 3.5, 3.5 to 10.5, and so on.
     - This histogram is identical except that the intervals are shifted
 
+
 ## Density Plot
 <img width="676" alt="Screen Shot 2023-11-20 at 12 35 35 AM" src="https://github.com/adityakmehrotra/Analyzing-Lake-Mendota-in-the-Winter/assets/24847438/95d6da35-b2b7-4ad0-9311-3ba81f12114a">
+
+### Observations
+- From this plot, we see that the distribution of year to year annual variation around the trend curve is approximately bell-shaped, but there is some slight left skewness (the left tail is bigger than the right tail).
+
 
 ## Box Plot
 <img width="683" alt="Screen Shot 2023-11-20 at 12 35 38 AM" src="https://github.com/adityakmehrotra/Analyzing-Lake-Mendota-in-the-Winter/assets/24847438/28e811db-7e38-495d-a441-84317c33f079">
