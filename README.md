@@ -14,6 +14,7 @@ To answer this question, I used multiple graphs to visualize the data:
 
 ## Scatter Plot
 <img width="680" alt="Screen Shot 2023-11-20 at 12 35 29 AM" src="https://github.com/adityakmehrotra/Analyzing-Lake-Mendota-in-the-Winter/assets/24847438/d4dffe48-d577-40aa-a9fc-fc21386613b1">
+
 ### Observations
 - There appears to be a decrease in Lake Mendota's freeze duration over time
 - Informally, we can interpret the blue curve in the plot as a description of what the climate is doing in Wisconsin.
