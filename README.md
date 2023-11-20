@@ -13,7 +13,15 @@ To answer this question, I used multiple graphs to visualize the data:
 - Side-by-side Box Plots (with Outliers)
 
 ## Scatter Plot
+
+## Histogram
+
+## Density Plot
 <img width="676" alt="Screen Shot 2023-11-20 at 12 35 35 AM" src="https://github.com/adityakmehrotra/Analyzing-Lake-Mendota-in-the-Winter/assets/24847438/95d6da35-b2b7-4ad0-9311-3ba81f12114a">
+
+## Box Plot
+
+## Side-by-side Box Plots
 
 
 Run the R Script file to get an outputted HTML file with my results.
