@@ -70,5 +70,6 @@ To answer this question, I used multiple graphs to visualize the data:
 - We see that in the 1800s, a typical freeze duration was nearly 120 days whereas in more recent decades, a typical duration has decreased to under 90 days.
 
 ## Run the Code
-Knit the rmd file with the data file and script file downloaded to get an outputted HTML file with my results.
+Knit the rmd file (`ggplot2.rmd`) with the data file (`lake-mendota-winters-2022.csv`) and script file (`script.R`) downloaded to get an outputted HTML file (`ggplot2.html`) with my results.
+All of these files are in the current repository.
 
