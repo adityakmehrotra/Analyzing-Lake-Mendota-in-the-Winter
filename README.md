@@ -15,6 +15,7 @@ To answer this question, I used multiple graphs to visualize the data:
 ## Scatter Plot
 
 ## Histogram
+<img width="673" alt="Screen Shot 2023-11-20 at 12 35 32 AM" src="https://github.com/adityakmehrotra/Analyzing-Lake-Mendota-in-the-Winter/assets/24847438/6cd4ab6b-fc8e-4a45-8b3a-33b138601742">
 
 ## Density Plot
 <img width="676" alt="Screen Shot 2023-11-20 at 12 35 35 AM" src="https://github.com/adityakmehrotra/Analyzing-Lake-Mendota-in-the-Winter/assets/24847438/95d6da35-b2b7-4ad0-9311-3ba81f12114a">
