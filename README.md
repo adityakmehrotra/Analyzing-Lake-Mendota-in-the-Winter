@@ -21,8 +21,21 @@ To answer this question, I used multiple graphs to visualize the data:
   - When ignoring the year-to-year fluctuations, we see that the average freeze duration of Lake Mendota over the winter has decreased from 120 days (around 17 weeks) in the mid 1850s to just under 80 days (around 11 weeks) in 2022.
 - The variation of the points around the blue curve may be interpreted as random “noise” caused by differences in the weather at key parts of the fall and winter seasons.
 
+
 ## Histogram
 <img width="673" alt="Screen Shot 2023-11-20 at 12 35 32 AM" src="https://github.com/adityakmehrotra/Analyzing-Lake-Mendota-in-the-Winter/assets/24847438/6cd4ab6b-fc8e-4a45-8b3a-33b138601742">
+
+### Observations
+- The arguments `binwidth = 7` and `boundary = 0` determine which intervals will be used in the histogram.
+    - Possible intervals include 0 to 7, 7 to 14, 14 to 21, and so on, but also $-7$ to 0, $-14$ to $-7$ and so on.
+    - The actual minimum and maximum data values determine which intervals appear in the plot.
+    - The smallest duration is 21 which is counted in the bin from 21 to 28.
+    - Note that if `boundary = 7` had been specified, the bins would be exactly the same: pick **one boundary** and **one bin width** to determine the end points of **all bins**.
+    - But, if `boundary = 10` had been specified, this would have shifted all of the bin boundaries three to the right and the graph would have different bins and different counts.
+- An alternative way to specify the intervals is with the `center` of one of the intervals instead of the `boundary` between two adjacent ones.
+- This graph centers a boundary at 0 with `binwidth = 7` still.
+    - The intervals are from $-3.5$ to 3.5, 3.5 to 10.5, and so on.
+    - This histogram is identical except that the intervals are shifted
 
 ## Density Plot
 <img width="676" alt="Screen Shot 2023-11-20 at 12 35 35 AM" src="https://github.com/adityakmehrotra/Analyzing-Lake-Mendota-in-the-Winter/assets/24847438/95d6da35-b2b7-4ad0-9311-3ba81f12114a">
