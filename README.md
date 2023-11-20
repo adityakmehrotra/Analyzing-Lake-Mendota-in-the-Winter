@@ -2,6 +2,14 @@
 
 Using ggplot2 in R to Analyze Lake Mendota in the Winter. Specifically, observing how long Lake Mendota freezes each winter, and identifying the pattern through various graphs.
 
+## Lake Mendota
+- Scientists have been recording the dates when Lake Mendota first closes with ice (at least half the surface is covered with ice) and opens (more than half the surface is liquid water) since the middle of the 1800s.
+- In most winters, there is a single uninterrupted period of time from the first time the lake is closed in the winter to the first time it reopens in the spring.
+    - Some winters have multiple intervals of closure
+- The data set I am using summarizes the raw data with a single row for each winter from 1855--56 through last winter, 2021--22.
+    - The variable `year1` is the first year of the given winter.
+    - The variable `duration` is the total number of days that Lake Mendota was closed by ice in the given winter. (Note: the word "winter" used here specifies a single season spanning two consecutive calendar years and does not use the endpoints from the winter solstice to the spring equinox, for example.)
+
 ## Question: How long does Lake Mendota freeze each winter?
 
 To answer this question, I used multiple graphs to visualize the data:
