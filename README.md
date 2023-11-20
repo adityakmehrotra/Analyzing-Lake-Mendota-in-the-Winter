@@ -71,5 +71,5 @@ To answer this question, I used multiple graphs to visualize the data:
 
 ## Run the Code
 Knit the rmd file (`ggplot2.rmd`) with the data file (`lake-mendota-winters-2022.csv`) and script file (`script.R`) downloaded to get an outputted HTML file (`ggplot2.html`) with my results.
-All of these files are in the current repository.
 
+All of these files are in the current repository.
