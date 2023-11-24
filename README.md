@@ -37,7 +37,6 @@ To answer this question, I used multiple graphs to visualize the data:
 
 ### Observations
 - The arguments `binwidth = 7` and `boundary = 0` determine which intervals will be used in the histogram.
-    - Possible intervals include 0 to 7, 7 to 14, 14 to 21, and so on, but also $-7$ to 0, $-14$ to $-7$ and so on.
     - The actual minimum and maximum data values determine which intervals appear in the plot.
     - The smallest duration is 21 which is counted in the bin from 21 to 28.
     - Note that if `boundary = 7` had been specified, the bins would be exactly the same: pick **one boundary** and **one bin width** to determine the end points of **all bins**.
