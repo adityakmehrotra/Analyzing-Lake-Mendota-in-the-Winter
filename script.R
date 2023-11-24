@@ -1,4 +1,4 @@
 require(tidyverse)
 require(lubridate)
 
-rmarkdown::render("ggplot2.Rmd")
+rmarkdown::render("ggplot2.rmd")
