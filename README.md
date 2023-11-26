@@ -12,6 +12,7 @@ Using ggplot2 in R to Analyze Lake Mendota in the Winter. Specifically, observin
         - Note: the word "winter" used here specifies a single season spanning two consecutive calendar years and does not use the endpoints from the winter solstice to the spring equinox, for example.
 #### The data is in the `lake-mendota-winters-2022.csv` file in this repository
 
+
 ## Question: How long does Lake Mendota freeze for each winter?
 
 To answer this question, I used multiple graphs to visualize the data:
